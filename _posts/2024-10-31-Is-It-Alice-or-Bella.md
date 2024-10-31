@@ -31,37 +31,37 @@ To solve this, we can use Bayes' theorem. Let's break down the information and d
   \]$
 
 - For **Bella**:
-  \[
+  $\[
   P(C \cap S | B) = P(C | B) \cdot P(S | B) = 0.5 \times 0.1 = 0.05
-  \]
+  \]$
 
 ### Step 2: Define Prior Probabilities
 
 Assuming **maximum uncertainty** in the absence of any other information about who they might be talking about, we assume equal priors:
-\[
+$\[
 P(A) = 0.5 \quad \text{and} \quad P(B) = 0.5
-\]
+\]$
 
 ### Step 3: Calculate \( P(C \cap S) \) (Total Probability)
 
 Using the law of total probability:
-\[
+$\[
 P(C \cap S) = P(C \cap S | A) \cdot P(A) + P(C \cap S | B) \cdot P(B)
-\]
+\]$
 Substitute the values:
-\[
+$\[
 P(C \cap S) = (0.45 \times 0.5) + (0.05 \times 0.5) = 0.225 + 0.025 = 0.25
-\]
+\]$
 
 ### Step 4: Apply Bayes’ Theorem to Find \( P(A | C \cap S) \)
 
-\[
+$\[
 P(A | C \cap S) = \frac{P(C \cap S | A) \cdot P(A)}{P(C \cap S)}
-\]
+\]$
 Substitute the values:
-\[
+$\[
 P(A | C \cap S) = \frac{0.45 \times 0.5}{0.25} = \frac{0.225}{0.25} = 0.9
-\]
+\]$
 
 ### Conclusion
 
