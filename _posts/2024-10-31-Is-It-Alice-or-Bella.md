@@ -11,10 +11,10 @@ Sally is new to the area and listens to friends discussing another female friend
 To solve this, we can use Bayes' theorem. Let's break down the information and define the relevant probabilities:
 
 1. **Define Events:**
-   - $\( A \)$: The friends are talking about **Alice**.
-   - $\( B \)$: The friends are talking about **Bella**.
-   - $\( C \)$: The person being discussed drives a **white car**.
-   - $\( S \)$: The person being discussed **hates sushi**.
+   - \( A \): The friends are talking about **Alice**.
+   - \( B \): The friends are talking about **Bella**.
+   - \( C \): The person being discussed drives a **white car**.
+   - \( S \): The person being discussed **hates sushi**.
 
 2. **Given Information:**
    - Sally is **90% certain** that Alice has a white car: \( P(C|A) = 0.9 \).
@@ -28,9 +28,9 @@ To solve this, we can use Bayes' theorem. Let's break down the information and d
 ### Step 1: Calculate $\( P(C \cap S | A) \)$ and $\( P(C \cap S | B) \)$
 
 - For **Alice**:
-  $\[
+  \[
   P(C \cap S | A) = P(C | A) \cdot P(S | A) = 0.9 \times 0.5 = 0.45
-  \]$
+  \]
 
 - For **Bella**:
   $\[
