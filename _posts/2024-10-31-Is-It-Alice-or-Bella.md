@@ -21,14 +21,14 @@ To solve this, we can use Bayes' theorem. Let's break down the information and d
    - Sally knows **nothing about Alice’s preference for sushi**, so assuming maximum uncertainty, \( P(S|A) = 0.5 \).
 
 3. **Goal:**
-   We want to find \( P(A | C \cap S) \), the probability that the friends are talking about Alice given that the person they are discussing drives a white car and hates sushi.
+   We want to find $\( P(A | C \cap S) \)$, the probability that the friends are talking about Alice given that the person they are discussing drives a white car and hates sushi.
 
-### Step 1: Calculate \( P(C \cap S | A) \) and \( P(C \cap S | B) \)
+### Step 1: Calculate $\( P(C \cap S | A) \)$ and $\( P(C \cap S | B) \)$
 
 - For **Alice**:
-  \[
+  $\[
   P(C \cap S | A) = P(C | A) \cdot P(S | A) = 0.9 \times 0.5 = 0.45
-  \]
+  \]$
 
 - For **Bella**:
   \[
