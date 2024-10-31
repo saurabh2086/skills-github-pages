@@ -17,15 +17,15 @@ To solve this, we can use Bayes' theorem. Let's break down the information and d
    - \( S \): The person being discussed **hates sushi**.
 
 2. **Given Information:**
-   - Sally is **90% certain** that Alice has a white car: \( P(C|A) = 0.9 \).
-   - Sally knows **nothing about Bella's car**, so assuming maximum uncertainty, \( P(C|B) = 0.5 \) (we assume an equal chance that Bella’s car could be white or black).
-   - Sally is **90% certain** that Bella likes sushi: \( P(\text{likes sushi}|B) = 0.9 \), so the probability that Bella **hates sushi** is \( P(S|B) = 0.1 \).
-   - Sally knows **nothing about Alice’s preference for sushi**, so assuming maximum uncertainty, \( P(S|A) = 0.5 \).
+   - Sally is **90% certain** that Alice has a white car: \( P(C\|A) = 0.9 \).
+   - Sally knows **nothing about Bella's car**, so assuming maximum uncertainty, \( P(C\|B) = 0.5 \) (we assume an equal chance that Bella’s car could be white or black).
+   - Sally is **90% certain** that Bella likes sushi: \( P(\text{likes sushi}\|B) = 0.9 \), so the probability that Bella **hates sushi** is \( P(S\|B) = 0.1 \).
+   - Sally knows **nothing about Alice’s preference for sushi**, so assuming maximum uncertainty, \( P(S\|A) = 0.5 \).
 
 3. **Goal:**
-   We want to find $\( P(A | C \cap S) \)$, the probability that the friends are talking about Alice given that the person they are discussing drives a white car and hates sushi.
+   We want to find \( P(A \| C \cap S) \), the probability that the friends are talking about Alice given that the person they are discussing drives a white car and hates sushi.
 
-### Step 1: Calculate $\( P(C \cap S | A) \)$ and $\( P(C \cap S | B) \)$
+### Step 1: Calculate \( P(C \cap S \| A) \)$ and $\( P(C \cap S \| B) \)$
 
 - For **Alice**:
   \[
