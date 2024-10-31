@@ -3,7 +3,7 @@ title: "Is-It-Alice-or-Bella?-A-Bayesian-Approach-to-Eavesdropping-101"
 date: 2024-10-31
 ---
 ## Question
--
+---
 Sally is new to the area and listens to friends discussing another female friend. Sally knows they are talking about either Alice or Bella but doesn’t know which. From previous conversations Sally knows some independent pieces of information: She’s 90% sure that Alice has a white car, but doesn’t know if Bella’s car is white or black. Similarly, she’s 90% sure that Bella likes sushi, but doesn’t know if Alice likes sushi. Sally hears from the conversation that the person being discussed hates sushi and drives a white car. What is the probability that the friends are talking about Alice? Assume maximal uncertainty @@in the absence of any knowledge of the probabilities.
 ---
 To solve this, we can use Bayes' theorem. Let's break down the information and define the relevant probabilities:
